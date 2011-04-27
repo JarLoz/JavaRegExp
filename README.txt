@@ -11,7 +11,7 @@ Koska säännöllinen lauseke kuvaa säännöllistä kieltä, on luonnollinen ta
 
 2. Käyttöohje:
 
-Ohjelma toimitetaan .tar.gz pakattuna NetBeans-projektina. Ohjelman voi kääntää joko käynnistämällä projektin NetBeans IDE:hen ja valitsemalla run -> Clean And Build Main Project, tai käsin suuntaamalla projektikansion sisältämään src/ kansioon, ja käynnistämällä kääntäjä komennoilla
+Ohjelman voi kääntää joko käynnistämällä projektin NetBeans IDE:hen ja valitsemalla run -> Clean And Build Main Project, tai käsin suuntaamalla projektikansion sisältämään src/ kansioon, ja käynnistämällä kääntäjä komennoilla
 
 javac /regexp/*.java
 jar -cmf RegexpManifest RegExp.jar regexp/
